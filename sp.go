@@ -11,8 +11,9 @@ const (
 	ErrStorageProviderSuspended        APIErrorCode = 4012
 	ErrStorageProviderIneligibleToMine APIErrorCode = 4013
 
-	ErrStorageProviderInfoTooOld APIErrorCode = 4041
-	ErrStorageProviderUndialable APIErrorCode = 4042
+	ErrStorageProviderInfoTooOld  APIErrorCode = 4041
+	ErrStorageProviderUndialable  APIErrorCode = 4042
+	ErrStorageProviderUnsupported APIErrorCode = 4043
 
 	ErrUnclaimedPieceCID         APIErrorCode = 4020
 	ErrProviderHasReplica        APIErrorCode = 4021
